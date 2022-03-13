@@ -1,0 +1,90 @@
+/* default style */
+*
+{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+.background
+{
+    background-color: blueviolet;
+    color: black;
+    text-align: center;
+    padding: 200px 200px;
+}
+
+
+.hero-title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
+
+.hero-para
+{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 18px;   
+ padding-bottom: 50px;
+}
+
+.hero-button
+{
+    background-color: aliceblue;
+    padding: 15px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.hero-button:hover
+{
+    background-color: maroon;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+    border-radius: 19px;
+    border-style: none;
+
+}
+
+/* navigation menu style */
+.nav
+{
+    background-color: aliceblue;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-size: 40px;
+}
+
+.menu a
+{
+    font-family: Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.menu a:hover
+{
+    background-color: maroon;
+    padding: 10px 30px;
+    color: aliceblue;
+    border-radius: 19px;
+    border-style: none;
+}
